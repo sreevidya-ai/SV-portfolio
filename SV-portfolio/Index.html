@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sree Vidya | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="SV-portfolio.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">MY PORTFOLIO</div>
+        <div class="menu-btn" id="menu-btn">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <div class="nav-overlay" id="nav-overlay">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <img src="assets\WhatsApp Image 2026-04-08 at 7.13.07 PM.jpeg" alt="Profile" class="profile-img">
+            <h1>Hi, I'm <span class="highlight">G Sree Vidya</span></h1>
+            <p>Full Stack Developer | Designer | Tech Enthusiast</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sree-vidya-24aug25?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/sreevidya-ai" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <a href="assets\Sreevidya resume 2026.pdf" download class="btn">Download Resume <i class="fas fa-download"></i></a>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2 class="section-title" data-aos="fade-right">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card" data-aos="zoom-in"><i class="fab fa-html5"></i><p>HTML & CSS</p></div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="100"><i class="fab fa-js"></i><p>JavaScript</p></div>
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="200"><i class="fab fa-python"></i><p>Python</p></div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title" data-aos="fade-right">Projects</h2>
+        <div class="project-grid">
+            <div class="project-card" data-aos="fade-up"><h3>Project One</h3><p>Description here.</p></div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100"><h3>Project Two</h3><p>Description here.</p></div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2 class="section-title" data-aos="fade-right">Contact</h2>
+        <div class="contact-box" data-aos="flip-up">
+            <a href="mailto:vidya050824@gmail.com" class="email-btn">Email Me</a>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="SV-portfolio.js"></script>
+</body>
+</html>
